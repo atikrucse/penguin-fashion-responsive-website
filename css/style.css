@@ -1,7 +1,19 @@
+body{
+    margin: 0px 100px;
+}
+.margin{
+    margin: 0px 30px;
+}
+.margin-w-sec{
+    margin: 0px 50px;
+}
+
 .ctm-header{
     background-color: #fffbf0;
 }
-
+.ctm-nav-logo>a>img{
+    margin-left: 30px;
+}
 .ctm-nav-item li{
     margin-left: 30px;
     color: black;
@@ -14,6 +26,76 @@
     display: flex;
     justify-content: flex-end;
 }
-.ctm-margin{
-    margin: 0px 100px;
+
+.welcome-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.welcome-image{
+    margin-left: 50px;
+}
+.women-img-1{
+    margin-top: 10px;
+    margin-left: 32px;
+    height: 220px;
+    width: 200px;
+}
+.ctm-card{
+    background-color: #f1f1f1;
+    margin: 20px;
+    border-radius: 15px;
+}
+.card-box-height{
+    height: 450px;
+    width: 300px;
+    margin: 10px
+}
+.card-height{
+    height: 250px;
+}
+
+.ctm-card-footer{
+    background-color: white;
+    border-top: 0;
+}
+.footer-box{
+    display: grid;
+    grid-gap: 5px;
+    
+}
+
+.footer-option{
+    background-color:rgb(221, 218, 221);
+    width: 400px;
+    height: 100px;
+}
+
+.item-4{
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+
+.item-4 img{
+    height: 250px;
+    width: 400px;
+}
+
+
+@media (max-width: 600px){
+
+}
+
+@media (min-width: 600px){
+
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width: 992px){
+    
+}
+@media (min-width: 1200px){
+    
 }
