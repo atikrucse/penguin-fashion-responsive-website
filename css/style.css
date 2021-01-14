@@ -1,5 +1,9 @@
 body{
     margin: 0px 100px;
+    
+}
+body>h1, h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
 }
 .margin{
     margin: 0px 30px;
@@ -33,6 +37,18 @@ body{
     align-items: center;
     margin-left: 30px;
 }
+.welcome-f{
+    color: rgba(250, 190, 76, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.welcome-s{
+    color: rgba(54, 57, 88, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.
 .welcome-image{
     margin-left: 50px;
 }
@@ -42,6 +58,13 @@ body{
     height: 220px;
     width: 200px;
 }
+.buy-btn{
+    background-color: #a4bc46;
+}
+.buy-btn>i{
+    color: white;
+}
+
 .ctm-card{
     background-color: #f1f1f1;
     margin: 20px;
@@ -67,7 +90,6 @@ body{
 }
 
 .footer-option{
-    background-color:rgb(221, 218, 221);
     width: 400px;
     height: 100px;
 }
@@ -84,7 +106,16 @@ body{
 
 
 @media (max-width: 600px){
-
+    body{
+        margin: 0px 0px;
+    }
+    .margin{
+        margin: 0px 0px;
+    }
+    .ctm-nav{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 600px){
