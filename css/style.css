@@ -1,0 +1,19 @@
+.ctm-header{
+    background-color: #fffbf0;
+}
+
+.ctm-nav-item li{
+    margin-left: 30px;
+    color: black;
+}
+.ctm-nav-item li a{
+    color: black;
+    font-weight: 600;
+}
+.ctm-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.ctm-margin{
+    margin: 0px 100px;
+}
